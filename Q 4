@@ -1,0 +1,11 @@
+ORG 0000H
+
+CLR A             
+ORL A, #05H        
+ORL A, #40H        
+MOV B, #00H       
+ORL B, #07H       
+ORL B, #60H       
+
+HERE: SJMP HERE
+END
